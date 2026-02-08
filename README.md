@@ -1,4 +1,4 @@
-# Tomato Disease Detection System 🍅🍃
+# Tomato Disease Detection System
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-CUDA%20Enabled-red)
@@ -7,7 +7,7 @@
 
 A comprehensive Deep Learning solution for detecting and classifying 10 different types of tomato plant diseases. This project utilizes **EfficientNetB3** (a state-of-the-art convolutional neural network) for high-accuracy image classification and serves the model via a modern **FastAPI** backend with a responsive web interface.
 
-## 🚀 Key Features
+## Key Features
 
 *   **High Accuracy**: Built on `EfficientNetB3`, leveraging transfer learning for robust performance.
 *   **Real-time Inference**: Fast predictions using a lightweight FastAPI server.
@@ -15,7 +15,7 @@ A comprehensive Deep Learning solution for detecting and classifying 10 differen
 *   **GPU Acceleration**: Fully optimized for NVIDIA GPUs (CUDA support) for rapid training.
 *   **Automated Setup**: Includes scripts for one-click environment configuration.
 
-## 📂 Dataset Classes
+## Dataset Classes
 
 The model is trained to identify the following 10 classes:
 *   Tomato Bacterial Spot
@@ -29,7 +29,7 @@ The model is trained to identify the following 10 classes:
 *   Tomato Mosaic Virus
 *   Tomato Healthy
 
-## 🛠️ Tech Stack
+## Technical Stack
 
 *   **Deep Learning**: PyTorch, Torchvision
 *   **Backend**: FastAPI, Uvicorn
@@ -37,7 +37,7 @@ The model is trained to identify the following 10 classes:
 *   **Data Processing**: Pillow (PIL), NumPy
 *   **Environment**: Python Virtualenv
 
-## 📦 Installation & Setup
+## Installation and Setup
 
 ### Prerequisites
 *   **Python 3.10 or 3.11** (Required for GPU support)
@@ -45,7 +45,7 @@ The model is trained to identify the following 10 classes:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/tomato-disease-detector.git
+git clone https://github.com/Prajwallnaik/plant_disease_model.git
 cd tomato-disease-detector
 ```
 
@@ -67,7 +67,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 pip install -r requirements.txt
 ```
 
-## 🏋️ Training the Model
+## Training the Model
 
 To train the model from scratch on your dataset:
 
@@ -79,7 +79,7 @@ To train the model from scratch on your dataset:
     ```
     *   *Note: This will save the best model to `model/efficientnet_b3_tomato.pth`.*
 
-## 🌐 Running the Application
+## Running the Application
 
 Once the model is trained, you can start the prediction server:
 
@@ -91,7 +91,7 @@ Once the model is trained, you can start the prediction server:
 2.  Open your browser and visit:
     [http://localhost:8000](http://localhost:8000)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 tomato-disease-detector/
@@ -110,10 +110,10 @@ tomato-disease-detector/
 └── README.md                # Project documentation
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
